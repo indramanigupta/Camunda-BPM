@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:modeler="http://camunda.org/schema/modeler/1.0" id="Definitions_02fx3ge" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Modeler" exporterVersion="5.21.0" modeler:executionPlatform="Camunda Cloud" modeler:executionPlatformVersion="8.4.0">
+  <bpmn:collaboration id="Collaboration_1x67czh">
+    <bpmn:participant id="Participant_0szf7ze" name="Employee (Order processing)" processRef="Process_0l9l929" />
+    <bpmn:participant id="Participant_11bgqj2" name="Chef (Meal preparation)" processRef="Process_1gg232b" />
+    <bpmn:participant id="Participant_0e0vj32" name="Guest (Food consumption)" processRef="Process_18tdzi1" />
+  </bpmn:collaboration>
+  <bpmn:process id="Process_0l9l929" isExecutable="false" />
+  <bpmn:process id="Process_1gg232b" isExecutable="false" />
+  <bpmn:process id="Process_18tdzi1" isExecutable="false" />
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Collaboration_1x67czh">
+      <bpmndi:BPMNShape id="Participant_11bgqj2_di" bpmnElement="Participant_11bgqj2" isHorizontal="true">
+        <dc:Bounds x="150" y="540" width="1250" height="160" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Participant_0e0vj32_di" bpmnElement="Participant_0e0vj32" isHorizontal="true">
+        <dc:Bounds x="150" y="60" width="1250" height="110" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Participant_0szf7ze_di" bpmnElement="Participant_0szf7ze" isHorizontal="true">
+        <dc:Bounds x="150" y="220" width="1250" height="260" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>
